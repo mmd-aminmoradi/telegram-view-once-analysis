@@ -223,7 +223,7 @@ The downloaded file was 100% identical to the original. This means View Once med
 
 After fully documenting this vulnerability, a detailed report was sent to Telegram's security team. Below is a screenshot of the response received:
 
-email-telegram.jpg
+![Telegram Support Response](email-telegram.jpg)
 
 Full Response Text:
 
