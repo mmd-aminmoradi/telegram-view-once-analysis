@@ -5,7 +5,7 @@ Telegram View Once Media Is Not Truly Ephemeral
 ## Overview
 
 This repository documents a technical analysis of Telegram's View Once (self-destructing media) feature and its behavior at the protocol level (MTProto).
-
+![Telegram Support Response](email-telegram.jpg)
 The View Once feature is designed to allow users to send photos and media that can only be viewed a single time before they are automatically removed.
 
 However, during controlled testing, it was observed that View Once media can still be retrieved and saved before being opened in the official Telegram client by using MTProto-based API clients.
@@ -77,4 +77,3 @@ async def handler(event):
 
 client.start()
 client.run_until_disconnected()
-![Telegram Support Response](email-telegram.jpg)
